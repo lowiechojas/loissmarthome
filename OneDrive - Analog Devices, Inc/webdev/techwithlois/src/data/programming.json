@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Python",
+    "slug": "python",
+    "description": "Python is a high-level, general-purpose programming language known for its simplicity and readability.",
+    "favicon": "https://www.python.org/static/favicon.ico"
+  },
+  {
+    "title": "Java",
+    "slug": "java",
+    "description": "Java is a class-based, object-oriented language used in enterprise applications, Android development, and more.",
+    "favicon": "https://www.oracle.com/favicon.ico"
+  },
+  {
+    "title": "C++",
+    "slug": "cpp",
+    "description": "C++ is a powerful, high-performance programming language often used in game development, embedded systems, and system software.",
+    "favicon": "https://isocpp.org/favicon.ico"
+  },
+  {
+    "title": "Go",
+    "slug": "go",
+    "description": "Go (Golang) is a statically typed language created by Google for building reliable and efficient software.",
+    "favicon": "https://go.dev/favicon.ico"
+  },
+  {
+    "title": "Rust",
+    "slug": "rust",
+    "description": "Rust is a systems programming language focused on safety, speed, and concurrency, without a garbage collector.",
+    "favicon": "https://www.rust-lang.org/static/images/favicon.ico"
+  },
+  {
+    "title": "C#",
+    "slug": "csharp",
+    "description": "C# is a modern, object-oriented language developed by Microsoft, commonly used for Windows applications and game development with Unity.",
+    "favicon": "https://learn.microsoft.com/favicon.ico"
+  },
+  {
+    "title": "Ruby",
+    "slug": "ruby",
+    "description": "Ruby is a dynamic, open-source programming language with a focus on simplicity and productivity, known for Ruby on Rails.",
+    "favicon": "https://www.ruby-lang.org/favicon.ico"
+  },
+  {
+    "title": "Kotlin",
+    "slug": "kotlin",
+    "description": "Kotlin is a modern programming language that makes developers happier. It’s used for Android development and fully interoperable with Java.",
+    "favicon": "https://kotlinlang.org/assets/images/favicon.ico"
+  },
+  {
+    "title": "Swift",
+    "slug": "swift",
+    "description": "Swift is a powerful and intuitive programming language for macOS, iOS, watchOS, and tvOS developed by Apple.",
+    "favicon": "https://developer.apple.com/favicon.ico"
+  },
+  {
+    "title": "TypeScript",
+    "slug": "typescript",
+    "description": "TypeScript is a superset of JavaScript that adds static typing, making large-scale application development more robust.",
+    "favicon": "https://www.typescriptlang.org/favicon.ico"
+  }
+]

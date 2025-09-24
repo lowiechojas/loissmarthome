@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Shopify",
+    "slug": "shopify",
+    "description": "Shopify is a leading eCommerce platform that allows individuals and businesses to create their own online stores easily.",
+    "favicon": "https://cdn.shopify.com/assets/favicon.ico"
+  },
+  {
+    "title": "WooCommerce",
+    "slug": "woocommerce",
+    "description": "WooCommerce is a customizable, open-source eCommerce plugin built on WordPress, ideal for small to large-sized online merchants.",
+    "favicon": "https://woocommerce.com/wp-content/themes/woo/images/favicon.ico"
+  },
+  {
+    "title": "Magento",
+    "slug": "magento",
+    "description": "Magento (now Adobe Commerce) is a powerful open-source eCommerce platform offering flexibility and scalability for complex stores.",
+    "favicon": "https://magento.com/sites/all/themes/magento/favicon.ico"
+  },
+  {
+    "title": "BigCommerce",
+    "slug": "bigcommerce",
+    "description": "BigCommerce is a SaaS eCommerce platform known for its robust performance, scalability, and flexibility for growing businesses.",
+    "favicon": "https://www.bigcommerce.com/assets/images/favicon.ico"
+  },
+  {
+    "title": "PrestaShop",
+    "slug": "prestashop",
+    "description": "PrestaShop is an open-source eCommerce solution that empowers small to medium-sized businesses to build online stores quickly.",
+    "favicon": "https://www.prestashop.com/themes/PrestaShop/assets/favicon.ico"
+  },
+  {
+    "title": "OpenCart",
+    "slug": "opencart",
+    "description": "OpenCart is a free, open-source online store management system offering powerful features and a user-friendly interface.",
+    "favicon": "https://www.opencart.com/image/catalog/favicon.png"
+  },
+  {
+    "title": "Squarespace Commerce",
+    "slug": "squarespace-commerce",
+    "description": "Squarespace offers a sleek and user-friendly platform for creatives and entrepreneurs to sell products and services online.",
+    "favicon": "https://www.squarespace.com/apple-touch-icon.png"
+  },
+  {
+    "title": "Wix eCommerce",
+    "slug": "wix-ecommerce",
+    "description": "Wix eCommerce provides a drag-and-drop platform for building stylish online stores with built-in marketing and SEO tools.",
+    "favicon": "https://www.wix.com/favicon.ico"
+  },
+  {
+    "title": "Ecwid",
+    "slug": "ecwid",
+    "description": "Ecwid is a cloud-based eCommerce platform that integrates seamlessly into any website, blog, or social media page.",
+    "favicon": "https://www.ecwid.com/favicon.ico"
+  },
+  {
+    "title": "Salesforce Commerce Cloud",
+    "slug": "salesforce-commerce-cloud",
+    "description": "Salesforce Commerce Cloud is a powerful B2C and B2B commerce platform that supports AI-driven personalization and scalability.",
+    "favicon": "https://www.salesforce.com/favicon.ico"
+  }
+]

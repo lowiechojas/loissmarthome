@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "title": "Arduino",
+    "slug": "arduino",
+    "description": "Arduino is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Arduino opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Arduino gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Arduino-uno-perspective-transparent.png/960px-Arduino-uno-perspective-transparent.png?20110418172632"
+  },
+  {
+    "id": 2,
+    "title": "Raspberry Pi",
+    "slug": "raspberry-pi",
+    "description": "Raspberry Pi is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Raspberry Pi opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Raspberry Pi gives you greater confidence in your electronic design skills.",
+    "image": "https://fullstacklog.com/wp-content/uploads/2014/07/raspberry_pi_Pi_iso_ORIG_01-1024x787.jpg"
+  },
+  {
+    "id": 3,
+    "title": "ESP32",
+    "slug": "esp32",
+    "description": "ESP32 is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding ESP32 opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering ESP32 gives you greater confidence in your electronic design skills.",
+    "image": "https://i2.wp.com/www.twinschip.com/image/cache/catalog/Products%20Twins%20Chip%20Store%202020/ESP32%20ESP-WROOM-32%20Development%20Board%20/ESP32%20ESP-WROOM-32%20Development%20Board%20%20-%20Twins%20Chip%201-1100x1100.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Micro:bit",
+    "slug": "micro:bit",
+    "description": "Micro:bit is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Micro:bit opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Micro:bit gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 5,
+    "title": "STM32",
+    "slug": "stm32",
+    "description": "STM32 is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding STM32 opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering STM32 gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 6,
+    "title": "BeagleBone",
+    "slug": "beaglebone",
+    "description": "BeagleBone is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding BeagleBone opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering BeagleBone gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 7,
+    "title": "ATmega328",
+    "slug": "atmega328",
+    "description": "ATmega328 is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding ATmega328 opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering ATmega328 gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Breadboard Basics",
+    "slug": "breadboard-basics",
+    "description": "Breadboard Basics is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Breadboard Basics opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Breadboard Basics gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Logic Gates",
+    "slug": "logic-gates",
+    "description": "Logic Gates is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Logic Gates opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Logic Gates gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Capacitors",
+    "slug": "capacitors",
+    "description": "Capacitors is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Capacitors opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Capacitors gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Resistors",
+    "slug": "resistors",
+    "description": "Resistors is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Resistors opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Resistors gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Diodes",
+    "slug": "diodes",
+    "description": "Diodes is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Diodes opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Diodes gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Transistors",
+    "slug": "transistors",
+    "description": "Transistors is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Transistors opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Transistors gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 14,
+    "title": "555 Timer",
+    "slug": "555-timer",
+    "description": "555 Timer is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding 555 Timer opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering 555 Timer gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Sensors",
+    "slug": "sensors",
+    "description": "Sensors is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Sensors opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Sensors gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Relays",
+    "slug": "relays",
+    "description": "Relays is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Relays opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Relays gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Potentiometers",
+    "slug": "potentiometers",
+    "description": "Potentiometers is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Potentiometers opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Potentiometers gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Oscilloscopes",
+    "slug": "oscilloscopes",
+    "description": "Oscilloscopes is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Oscilloscopes opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Oscilloscopes gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Multimeters",
+    "slug": "multimeters",
+    "description": "Multimeters is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Multimeters opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Multimeters gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 20,
+    "title": "DC Motors",
+    "slug": "dc-motors",
+    "description": "DC Motors is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding DC Motors opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering DC Motors gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Servos",
+    "slug": "servos",
+    "description": "Servos is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Servos opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Servos gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Stepper Motors",
+    "slug": "stepper-motors",
+    "description": "Stepper Motors is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Stepper Motors opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Stepper Motors gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 23,
+    "title": "OLED Displays",
+    "slug": "oled-displays",
+    "description": "OLED Displays is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding OLED Displays opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering OLED Displays gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 24,
+    "title": "LCD Displays",
+    "slug": "lcd-displays",
+    "description": "LCD Displays is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding LCD Displays opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering LCD Displays gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 25,
+    "title": "I2C Protocol",
+    "slug": "i2c-protocol",
+    "description": "I2C Protocol is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding I2C Protocol opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering I2C Protocol gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 26,
+    "title": "SPI Protocol",
+    "slug": "spi-protocol",
+    "description": "SPI Protocol is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding SPI Protocol opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering SPI Protocol gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 27,
+    "title": "UART Communication",
+    "slug": "uart-communication",
+    "description": "UART Communication is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding UART Communication opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering UART Communication gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Power Supplies",
+    "slug": "power-supplies",
+    "description": "Power Supplies is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Power Supplies opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Power Supplies gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Voltage Regulators",
+    "slug": "voltage-regulators",
+    "description": "Voltage Regulators is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Voltage Regulators opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Voltage Regulators gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Printed Circuit Boards",
+    "slug": "printed-circuit-boards",
+    "description": "Printed Circuit Boards is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Printed Circuit Boards opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Printed Circuit Boards gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Soldering Techniques",
+    "slug": "soldering-techniques",
+    "description": "Soldering Techniques is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Soldering Techniques opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Soldering Techniques gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Digital Signals",
+    "slug": "digital-signals",
+    "description": "Digital Signals is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Digital Signals opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Digital Signals gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Analog Signals",
+    "slug": "analog-signals",
+    "description": "Analog Signals is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Analog Signals opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Analog Signals gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Signal Conditioning",
+    "slug": "signal-conditioning",
+    "description": "Signal Conditioning is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Signal Conditioning opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Signal Conditioning gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 35,
+    "title": "IoT Basics",
+    "slug": "iot-basics",
+    "description": "IoT Basics is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding IoT Basics opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering IoT Basics gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 36,
+    "title": "Embedded Systems",
+    "slug": "embedded-systems",
+    "description": "Embedded Systems is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Embedded Systems opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Embedded Systems gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 37,
+    "title": "Real-Time Operating Systems",
+    "slug": "real-time-operating-systems",
+    "description": "Real-Time Operating Systems is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Real-Time Operating Systems opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Real-Time Operating Systems gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 38,
+    "title": "Power Management",
+    "slug": "power-management",
+    "description": "Power Management is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Power Management opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Power Management gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 39,
+    "title": "Circuit Simulation",
+    "slug": "circuit-simulation",
+    "description": "Circuit Simulation is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Circuit Simulation opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Circuit Simulation gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 40,
+    "title": "Altium Designer",
+    "slug": "altium-designer",
+    "description": "Altium Designer is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Altium Designer opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Altium Designer gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 41,
+    "title": "KiCad",
+    "slug": "kicad",
+    "description": "KiCad is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding KiCad opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering KiCad gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 42,
+    "title": "Eagle CAD",
+    "slug": "eagle-cad",
+    "description": "Eagle CAD is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Eagle CAD opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Eagle CAD gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 43,
+    "title": "LTspice",
+    "slug": "ltspice",
+    "description": "LTspice is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding LTspice opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering LTspice gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 44,
+    "title": "PCB Fabrication",
+    "slug": "pcb-fabrication",
+    "description": "PCB Fabrication is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding PCB Fabrication opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering PCB Fabrication gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 45,
+    "title": "Low Power Design",
+    "slug": "low-power-design",
+    "description": "Low Power Design is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Low Power Design opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Low Power Design gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 46,
+    "title": "Wearable Electronics",
+    "slug": "wearable-electronics",
+    "description": "Wearable Electronics is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Wearable Electronics opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Wearable Electronics gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 47,
+    "title": "Smart Home Devices",
+    "slug": "smart-home-devices",
+    "description": "Smart Home Devices is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Smart Home Devices opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Smart Home Devices gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 48,
+    "title": "Automotive Electronics",
+    "slug": "automotive-electronics",
+    "description": "Automotive Electronics is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Automotive Electronics opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Automotive Electronics gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 49,
+    "title": "FPGA Fundamentals",
+    "slug": "fpga-fundamentals",
+    "description": "FPGA Fundamentals is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding FPGA Fundamentals opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering FPGA Fundamentals gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  },
+  {
+    "id": 50,
+    "title": "Zener Diodes",
+    "slug": "zener-diodes",
+    "description": "Zener Diodes is a foundational concept in modern electronics. It plays a crucial role in various devices and systems used daily, offering students and engineers a hands-on way to explore how electronic components work together. Understanding Zener Diodes opens the door to advanced design and troubleshooting. Whether you're building a simple project or a complex system, mastering Zener Diodes gives you greater confidence in your electronic design skills.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_stock_photo.jpg/640px-Electronics_stock_photo.jpg"
+  }
+]

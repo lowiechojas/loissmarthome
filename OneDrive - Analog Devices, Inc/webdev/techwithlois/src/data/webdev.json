@@ -1,0 +1,92 @@
+[
+  {
+    "title": "HTML",
+    "slug": "html",
+    "description": "HTML (HyperText Markup Language) is the standard language for creating webpages and web applications.",
+    "favicon": "https://www.w3.org/favicon.ico"
+  },
+  {
+    "title": "CSS",
+    "slug": "css",
+    "description": "CSS (Cascading Style Sheets) is used to style and layout HTML elements on the web.",
+    "favicon": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png"
+  },
+  {
+    "title": "JavaScript",
+    "slug": "javascript",
+    "description": "JavaScript is a high-level programming language that enables interactive web pages and dynamic content.",
+    "favicon": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+  },
+  {
+    "title": "TypeScript",
+    "slug": "typescript",
+    "description": "TypeScript is a superset of JavaScript that adds static types and is compiled to plain JavaScript.",
+    "favicon": "https://www.typescriptlang.org/favicon-32x32.png"
+  },
+  {
+    "title": "React",
+    "slug": "react",
+    "description": "React is a JavaScript library for building user interfaces, developed and maintained by Meta.",
+    "favicon": "https://reactjs.org/favicon.ico"
+  },
+  {
+    "title": "Vue.js",
+    "slug": "vue",
+    "description": "Vue.js is a progressive JavaScript framework for building user interfaces and single-page applications.",
+    "favicon": "https://vuejs.org/images/logo.png"
+  },
+  {
+    "title": "Angular",
+    "slug": "angular",
+    "description": "Angular is a TypeScript-based framework for building web applications, maintained by Google.",
+    "favicon": "https://angular.io/assets/images/favicons/favicon.ico"
+  },
+  {
+    "title": "Svelte",
+    "slug": "svelte",
+    "description": "Svelte is a modern JavaScript compiler that generates highly efficient and optimized vanilla JavaScript.",
+    "favicon": "https://svelte.dev/favicon.png"
+  },
+  {
+    "title": "Next.js",
+    "slug": "nextjs",
+    "description": "Next.js is a React-based framework for building fast, SEO-friendly, and scalable web applications.",
+    "favicon": "https://nextjs.org/favicon.ico"
+  },
+  {
+    "title": "Express.js",
+    "slug": "express",
+    "description": "Express is a minimal and flexible Node.js web application framework that provides robust features for web and mobile applications.",
+    "favicon": "https://expressjs.com/images/favicon.png"
+  },
+  {
+    "title": "Node.js",
+    "slug": "nodejs",
+    "description": "Node.js is a runtime built on Chrome's V8 JavaScript engine for building fast and scalable server-side applications.",
+    "favicon": "https://nodejs.org/static/images/favicons/favicon.png"
+  },
+  {
+    "title": "Django",
+    "slug": "django",
+    "description": "Django is a high-level Python web framework that promotes rapid development and clean, pragmatic design.",
+    "favicon": "https://www.djangoproject.com/favicon.ico"
+  },
+  {
+    "title": "Flask",
+    "slug": "flask",
+    "description": "Flask is a lightweight WSGI web application framework in Python. It is designed with simplicity and flexibility in mind.",
+    "favicon": "https://flask.palletsprojects.com/en/2.2.x/_static/flask-icon.png"
+  },
+  {
+    "title": "Ruby on Rails",
+    "slug": "ruby-on-rails",
+    "description": "Rails is a full-stack web development framework written in Ruby, following the MVC architecture.",
+    "favicon": "https://rubyonrails.org/favicon.ico"
+  },
+  {
+    "title": "Laravel",
+    "slug": "laravel",
+    "description": "Laravel is a PHP web application framework with expressive, elegant syntax designed for modern web development.",
+    "favicon": "https://laravel.com/img/favicon/favicon.ico"
+  }
+]

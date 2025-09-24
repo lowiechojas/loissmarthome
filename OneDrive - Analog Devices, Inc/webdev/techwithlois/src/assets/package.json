@@ -1,0 +1,12 @@
+{
+  "name": "lowiechojas",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "license": "ISC",
+  "author": "Lowie Hojas",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "script"
+  }
+}
