@@ -1,0 +1,43 @@
+.switch-container {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.switch {
+  width: 40px;
+  height: 20px;
+  background-color: #555;
+  border-radius: 20px;
+  position: relative;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.switch.on {
+  background-color: #4caf50;
+}
+
+.switch.off {
+  background-color: #777;
+}
+
+.switch-handle {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: left 0.3s ease;
+}
+
+.switch.on .switch-handle {
+  left: 21px;
+}
+
+.switch-label {
+  color: white;
+}
