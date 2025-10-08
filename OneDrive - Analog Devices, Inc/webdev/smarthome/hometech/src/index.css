@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: linear-gradient(90deg,rgba(152, 159, 166, 1) 21%, rgba(110, 117, 114, 1) 62%, rgba(102, 100, 92, 1) 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,52 +19,81 @@
   padding: 0;
 }
 
-.dashboard-main{
+.dashboard-container {
   display: grid;
-  grid-template-columns: auto 1fr auto;
-  
-}
-
-.dashboard-content{
-  padding: 20px;
-  width: 100%;
-  height: 100vh;
-}
-
-.dashboard-top{
-  display: flex;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  background-color: linear-gradient(90deg,rgba(152, 159, 166, 1) 21%, rgba(110, 117, 114, 1) 62%, rgba(102, 100, 92, 1) 100%);
   justify-content: space-between;
+  margin: calc(100vw*.05);
+  height: max-content;
+}
+
+.left-div{
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  gap: 10px;
+  color: black;
+}
+
+.right-div{
+  display: grid;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.top-div{
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 2fr 3fr;
+  background-color: white;
+}
+
+.bottom-div{
+  display: grid;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.top-div-left, .top-div-right{
+  display: grid;
+  border: 1px solid black;
+  border-radius: 10px;
   align-items: center;
-  height: 60px;
-  background-color: #444;
-  color: white;
-  padding: 0 20px;
 }
 
-.sidebar-list{
+.top-div-right{
+  grid-template-columns: 1fr 1fr;
+}
+
+.house-menu{
   display: flex;
-  align-items: left;
-  color: white;
+  flex-direction: row;
+  justify-items: space-between;
+  height: max-content;
+  width: 100%;
+}
+
+.house-menu-list{
+  display: flex;
   list-style: none;
-  text-decoration: none;
-  padding: 10px;
-  border-right: 2px solid white;
+  border-bottom: 2px solid black;
 }
 
-ul, li, h1, a{
+li{
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   list-style: none;
-  text-decoration: none;
-  color: white;
 }
 
-.dashboard-header{
-  width: calc(100vw*.10);
-  height: 100vh;
+.nav-items:hover{
+  background-color: lightgray;
+  cursor: pointer;
 }
 
-li:hover{
-  background-color: #666;
+.active-bg{
+  background-color: lightgray;
 }
-
-
-

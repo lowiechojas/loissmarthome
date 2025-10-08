@@ -1,42 +1,124 @@
 import React from 'react'
 import { NavLink, Link,Outlet, useLocation } from 'react-router-dom'
 import About from './About'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import supabase from '../config/supabaseClient'
 
 const Dashboard = () => {
+    const [selected, setSelected] = useState(localStorage.getItem("selectedArea") || null);
+  const [switches, setSwitches] = useState([]);
+  const [areas, setAreas] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-    const location = useLocation()
-    const pageName = location.pathname.split('/')[1] || 'dashboard'
-    const formattedPage = pageName.charAt(0).toUpperCase() + pageName.slice(1)
+   useEffect(() => {
+    const fetchAreas = async () => {
+      const { data, error } = await supabase.from("sensors").select("area");
 
-    const handleLogout = async () => {
-  await supabase.auth.signOut()
-  window.location.reload()
-}
+      if (error) {
+        console.error("Error fetching areas:", error);
+      } else {
+        const uniqueAreas = [...new Set(data.map((item) => item.area))];
+        setAreas(uniqueAreas);
+      }
+
+      setLoading(false);
+    };
+
+    fetchAreas();
+  }, []);
+
+   useEffect(() => {
+    const fetchSwitches = async () => {
+      if (!selected) return;
+
+      const { data, error } = await supabase
+        .from("sensors")
+        .select("switchname")
+        .eq("area", selected);
+
+      if (error) {
+        console.error("Error fetching switches:", error);
+      } else {
+        setSwitches(data);
+      }
+    };
+
+    fetchSwitches();
+  }, [selected]);
+
+  // Persist selected area
+  useEffect(() => {
+    if (selected) {
+      localStorage.setItem("selectedArea", selected);
+    }
+  }, [selected]);
+
+  if (loading) return <p>Loading...</p>;
 
   return (
     <div className='dashboard-container'>
-        <div className='dashboard-top'>
-          <h1 className='text-deco'> <Link  to="/">Dashboard Page</Link></h1>
-        </div>
-        
-        <div className='dashboard-main'>
-            <div className='dashboard-header'>
-                <div className='sidebar'>
-                    <ul>
-                        <li><Link className='sidebar-list text-deco' to={"/house"}>House</Link></li>
-                        <li><Link className='sidebar-list text-deco' to={"/lights"}>Lights</Link></li>
-                        <li><Link className='sidebar-list text-deco' to={"/switches"}>Switches</Link></li>
-                    </ul>
-                </div>
-            </div>
+      <div className='left-div'>
 
-            <div className='dashboard-content'>
-                <h2>Welcome to the {formattedPage}</h2>
-                <Outlet /> {/* 👈 This is where child pages render */}
+        <div className='top-div'>
+
+          <div className='top-div-left center-text'>
+            <h4>Good morning, Lois!</h4>
+          </div>
+
+          <div className='top-div-right'>
+            <div>
+              <h1>Time</h1>
+              <h4>Date, Day</h4>
             </div>
+            <div>
+              <h1>Temperature</h1>
+            </div>
+            
+
+          </div>
+
         </div>
+
+        <div className='bottom-div'>
+          <div className='house-menu'>
+            <ul className='house-menu-list'>
+              {areas.map((area, index) => (
+                <li
+                  key={index}
+                  onClick={() => {
+                    setSelected(area);
+                    localStorage.setItem("selectedArea", area);
+                  }}
+                  className={`nav-items ${
+                    localStorage.getItem("selectedArea") === area
+                      ? "active-bg"
+                      : "inactive-bg"
+                  }`}
+                >
+                  {area}
+                </li>
+              ))}
+            </ul>
+          </div>
+           <div className="sensors-div">
+            <h4>Sensors in {selected || "..."}</h4>
+            <ul>
+              {switches.length > 0 ? (
+                switches.map((item, index) => (
+                  <li key={index}>{item.switchname}</li>
+                ))
+              ) : (
+                <li>No sensors found</li>
+              )}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='right-div'>
+        <h1>Right Div</h1>
+      </div>
+
     </div>
   )
 }
