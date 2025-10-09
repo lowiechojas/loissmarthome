@@ -1,0 +1,63 @@
+.sensor-card {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+/* OFF state */
+.sensor-card.off {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* ON state */
+.sensor-card.on {
+  background-color: #22c55e; /* green */
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.sensor-card:hover {
+  transform: translateY(-3px);
+}
+
+.sensor-card h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.status {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.sensor-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sensor-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.label{
+  font-size: 1.4rem;
+  margin: 0;
+}

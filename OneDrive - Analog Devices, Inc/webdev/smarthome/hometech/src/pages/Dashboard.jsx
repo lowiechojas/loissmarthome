@@ -3,9 +3,13 @@ import { NavLink, Link,Outlet, useLocation } from 'react-router-dom'
 import About from './About'
 import { useState, useEffect } from 'react'
 import supabase from '../config/supabaseClient'
+import Sensors from '../components/Sensors'
+import '../components/Dashboardcss.css'
+import WeatherInfo from '../components/WeatherInfo'
 
 const Dashboard = () => {
-    const [selected, setSelected] = useState(localStorage.getItem("selectedArea") || null);
+
+  const [selected, setSelected] = useState(localStorage.getItem("selectedArea") || null);
   const [switches, setSwitches] = useState([]);
   const [areas, setAreas] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -33,7 +37,7 @@ const Dashboard = () => {
 
       const { data, error } = await supabase
         .from("sensors")
-        .select("switchname")
+        .select("id,switchname")
         .eq("area", selected);
 
       if (error) {
@@ -55,6 +59,8 @@ const Dashboard = () => {
 
   if (loading) return <p>Loading...</p>;
 
+
+
   return (
     <div className='dashboard-container'>
       <div className='left-div'>
@@ -65,16 +71,9 @@ const Dashboard = () => {
             <h4>Good morning, Lois!</h4>
           </div>
 
-          <div className='top-div-right'>
-            <div>
-              <h1>Time</h1>
-              <h4>Date, Day</h4>
-            </div>
-            <div>
-              <h1>Temperature</h1>
-            </div>
-            
-
+        
+          <div>
+            <WeatherInfo />
           </div>
 
         </div>
@@ -101,16 +100,20 @@ const Dashboard = () => {
             </ul>
           </div>
            <div className="sensors-div">
-            <h4>Sensors in {selected || "..."}</h4>
-            <ul>
+            {/*<h4>Sensors in {selected || "..."}</h4>*/}
+            
               {switches.length > 0 ? (
-                switches.map((item, index) => (
-                  <li key={index}>{item.switchname}</li>
+                switches.map((item) => (
+                <Sensors
+                  key={`${selected}-${item.id}`} // 👈 unique per area + switch
+                  name={item.switchname}
+                  area={selected}
+                />
                 ))
               ) : (
                 <li>No sensors found</li>
               )}
-            </ul>
+      
           </div>
         </div>
       </div>

@@ -1,0 +1,152 @@
+
+  /* Base Layout */
+.dashboard-container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  min-height: max-content;
+  font-family: "Inter", sans-serif;
+  color: #333;
+}
+
+/* Left Panel */
+.left-div {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background: #329484c0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 10px;
+}
+
+/* Top Section */
+.top-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.top-div-left h4 {
+  width: max-content;
+  height: max-content;
+  margin: 0;
+  color: #1d4ed8;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.top-div-left{
+  flex: 0.6;
+  height: max-content;
+}
+
+.center-text {
+  text-align: left;
+}
+
+.top-div-right {
+  display: flex;
+  gap: 50px;
+  width: calc(100vw*0.25);
+  height: auto;
+  align-items: center;
+  align-content: start;
+  justify-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #f8faff;
+}
+
+.top-div-right h1 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #222;
+}
+
+.top-div-right h4 {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Bottom Section */
+.bottom-div {
+  margin-top: 20px;
+  background: #f8faff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* House Menu */
+.house-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items {
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.nav-items:hover {
+  background-color: #e0ebff;
+  transform: translateX(4px);
+}
+
+.active-bg {
+  background-color: #1d4ed8;
+  color: white;
+  font-weight: 500;
+}
+
+.inactive-bg {
+  background-color: transparent;
+  color: #333;
+}
+
+/* Sensors Section */
+.sensors-div {
+  margin-top: 16px;
+}
+
+.sensors-div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.sensors-div li {
+  display: none; /* hides raw text list; actual Sensor cards show instead */
+}
+
+/* Right Panel */
+.right-div {
+  flex: 0.6;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+.right-div h1 {
+  color: #1d4ed8;
+  margin: 0;
+  font-size: 1.5rem;
+}

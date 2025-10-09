@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import supabase from '../config/supabaseClient'
-import Switch from '../components/Switch'
+import Sensors from '../components/Sensors'
 
 const Switches = () => {
   const [switches, setSwitches] = useState([])

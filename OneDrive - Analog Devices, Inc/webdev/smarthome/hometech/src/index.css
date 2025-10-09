@@ -55,6 +55,7 @@
   background-color: white;
   border-radius: 10px;
   border: 1px solid black;
+  padding: 10px;
 }
 
 .top-div-left, .top-div-right{
@@ -96,4 +97,11 @@ li{
 
 .active-bg{
   background-color: lightgray;
+}
+
+.sensors-div ,ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
 }
